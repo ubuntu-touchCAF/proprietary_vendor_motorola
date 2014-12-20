@@ -16,13 +16,6 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
-    com.qualcomm.services.location \
-    MotGeoFenceSvc \
-    TimeService \
-    qcrilmsgtunnel \
-    qcnvitems \
-    qcrilhook \
     libHevcSwDecoder
 
 $(call inherit-product, vendor/motorola/msm8226-common/msm8226-common-vendor-blobs.mk)
