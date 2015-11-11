@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -52,20 +51,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/msm8226-common/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/motorola/msm8226-common/proprietary/bin/hvdcp:system/bin/hvdcp \
-    vendor/motorola/msm8226-common/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/motorola/msm8226-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/motorola/msm8226-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/msm8226-common/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/motorola/msm8226-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/msm8226-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -115,29 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/motorola/msm8226-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/motorola/msm8226-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/motorola/msm8226-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/motorola/msm8226-common/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -152,14 +124,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/msm8226-common/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/msm8226-common/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
-    vendor/motorola/msm8226-common/proprietary/bin/refuse:system/bin/refuse \
     vendor/motorola/msm8226-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/motorola/msm8226-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/motorola/msm8226-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/msm8226-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -179,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/motorola/msm8226-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/msm8226-common/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/motorola/msm8226-common/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/msm8226-common/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/msm8226-common/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/msm8226-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -191,15 +158,18 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/msm8226-common/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/msm8226-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/motorola/msm8226-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/motorola/msm8226-common/proprietary/etc/firmware/aps-Falc-01210000-0121-falcon.tdat:system/etc/firmware/aps-Falc-01210000-0121-falcon.tdat \
+    vendor/motorola/msm8226-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/motorola/msm8226-common/proprietary/etc/firmware/aps-Falc-01300000-0130-falcon.tdat:system/etc/firmware/aps-Falc-01300000-0130-falcon.tdat \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat:system/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat \
     vendor/motorola/msm8226-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/motorola/msm8226-common/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/motorola/msm8226-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/msm8226-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
@@ -207,5 +177,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/motorola/msm8226-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/motorola/msm8226-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/motorola/msm8226-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
+    vendor/motorola/msm8226-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
